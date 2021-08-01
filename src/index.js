@@ -14,7 +14,7 @@ var config = {
   messagingSenderId: "590481645308",
   appId: "..."
 };
-firebase.initializeApp(Config);
+firebase.initializeApp(config);
 ReactDOM.render(
   <React.StrictMode>
     <App />
